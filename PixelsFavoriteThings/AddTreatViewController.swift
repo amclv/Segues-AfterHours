@@ -11,7 +11,11 @@ import UIKit
 
 class AddTreatViewController: UIViewController {
     
-
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var flavorTextField: UITextField!
+    @IBOutlet weak var amountOfTreatsTextField: UITextField!
+    @IBOutlet weak var ratingTextField: UITextField!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
